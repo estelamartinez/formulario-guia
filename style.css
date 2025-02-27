@@ -1,0 +1,69 @@
+/* Estilo básico para el formulario */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffec3;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background-color: #f8d7da; /* Fondo rosita claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(254, 245, 146, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Aseguramos que los labels se vean bien */
+label {
+    font-weight: bold;
+    display: block; /* Para que esté en su propia línea */
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px; /* Añadimos padding para que no llegue al borde */
+    margin: 8px 0 15px 0; /* Añadimos margen superior e inferior */
+    border-radius: 4px;
+    border: 1px solid #f5ff9c;
+    font-size: 16px;
+    box-sizing: border-box; /* Esto asegura que el padding no se agregue al ancho total */
+}
+
+button {
+    background-color: #8e1f65;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #8e1f65;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+/* Ajuste específico para el prefijo telefónico */
+#prefijo {
+    width: 25%;  /* El prefijo ahora ocupará solo el 25% del espacio */
+    margin-right: 10px;  /* Añadimos un pequeño margen derecho para separar los campos */
+}
+
+/* Ajuste para el número de teléfono, haciéndolo más grande */
+#telefono {
+    width: 70%; /* El número de teléfono ocupará el 70% del espacio */
+}
